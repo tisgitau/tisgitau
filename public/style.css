@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
 :root{
-    --main-color:#e38528;
+    --main-color:beige;
 }
 
 *{
@@ -23,7 +23,7 @@ html{
 }
 
 body{
-    background: #fcf2e8;
+    background:brown;
     padding-left: 30rem;
 }
 
@@ -35,12 +35,12 @@ section{
 .heading{
     font-size: 4rem;
     padding-bottom: 1rem;
-    color:#111;
+    color:blue;
     text-transform: uppercase;
 }
 
 .heading span{
-    color:var(--main-color);
+    color:black;
     text-transform: uppercase;
 }
 
@@ -49,13 +49,13 @@ section{
     margin-top: 1rem;
     padding:.8rem 3rem;
     background:var(--main-color);
-    color:#fff;
+    color:blue;
     cursor: pointer;
     font-size: 1.7rem;
 }
 
 .btn:hover{
-    background:#111;
+    background:yellow;
     letter-spacing: .2rem;
 }
 
@@ -99,7 +99,7 @@ header .navbar a:hover{
 
 header .follow a{
     font-size: 2.5rem;
-    color:#fff;
+    color:red;
     margin:0 .7rem;
 }
 
@@ -117,7 +117,7 @@ header .follow a:hover{
     padding:1rem 1.5rem;
     font-size: 3rem;
     cursor:pointer;
-    display: none;
+    display:none
 }
 
 .cursor-1{
